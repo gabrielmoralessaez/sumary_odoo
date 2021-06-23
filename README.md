@@ -32,3 +32,6 @@ la linea despues de <field name="arch" type="xml"> define si es form tree kanban
   </record>
   en el record id se agrega el nombre del ref despues del punto y se agrega inherit, el modelo es el modelo heredado
   
+  
+  utilizar para una view heredada el <xpath expr='//file[@name="partner_id"]' position='after'>
+  
