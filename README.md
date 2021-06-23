@@ -22,3 +22,14 @@ la linea despues de <field name="arch" type="xml"> define si es form tree kanban
   para buscar la depends debo buscar el nombre ejemplo sale.order y el nombre del modulo es la dependencia
   
   con el Ctrl+Shif+F buscar name="inherit_id"
+
+<record id="view_order_form_inherit" model="ir.ui.view">
+            <field name="name">sale.order.inherit</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+
+            </field>
+  </record>
+  en el record id se agrega el nombre del ref despues del punto y se agrega inherit, el modelo es el modelo heredado
+  
