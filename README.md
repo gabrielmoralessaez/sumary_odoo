@@ -35,3 +35,7 @@ la linea despues de <field name="arch" type="xml"> define si es form tree kanban
   
   utilizar para una view heredada el <xpath expr='//file[@name="partner_id"]' position='after'>
   
+  buscar la vista heredada padre
+  
+
+ en el model con _inherit
