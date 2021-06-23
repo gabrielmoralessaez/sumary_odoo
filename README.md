@@ -21,4 +21,4 @@ la linea despues de <field name="arch" type="xml"> define si es form tree kanban
   
   para buscar la depends debo buscar el nombre ejemplo sale.order y el nombre del modulo es la dependencia
   
-  con el Ctrl+Shif+F buscar name ="inherit_id"
+  con el Ctrl+Shif+F buscar name="inherit_id"
