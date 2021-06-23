@@ -28,8 +28,7 @@ la linea despues de <field name="arch" type="xml"> define si es form tree kanban
             <field name="model">sale.order</field>
             <field name="inherit_id" ref="sale.view_order_form"/>
             <field name="arch" type="xml">
-
-            </field>
+           </field>
   </record>
   en el record id se agrega el nombre del ref despues del punto y se agrega inherit, el modelo es el modelo heredado
   
